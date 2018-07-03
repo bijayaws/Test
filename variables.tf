@@ -1,9 +1,6 @@
 /* Terraform Variable details*/
 
-Variable "AWS_AccessKey" {
-Description = "AWS access key"
-}
+variable "access_key" {}
 
-Variable "AWS_secretKey" {
-Description = "AWS secret key"
+variable "secret_key" {
 }
